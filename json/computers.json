@@ -1,0 +1,29 @@
+[
+ {
+  "System": {
+   "os_name": "Microsoft Windows 11 Home Single Language",
+   "os_version": "10.0.22631",
+   "os_license": "True",
+   "architecture": "64 bits",
+   "host_name": "P311200"
+  },
+  "Network": {
+   "ip_address": "127.0.0.1",
+   "ipv6_address": "fe80::c38d:e86e:12fd:9534%13",
+   "mac_address": "2C-6D-C1-B4-E6-3C",
+   "gateway": "",
+   "subnet_mask": "16",
+   "dns": "10.8.8.8,10.7.7.7,181.213.132.2,181.213.132.3",
+   "connection_type": "Wi-Fi",
+   "protocol": "TCP/IP"
+  },
+  "Hardware": {
+   "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+   "ram_storage": "8",
+   "ram_type": "0",
+   "storage_type": "SSD",
+   "storage_capacity": "476,939781188965",
+   "mother_board": "0VDFD7"
+  }
+ }
+]
