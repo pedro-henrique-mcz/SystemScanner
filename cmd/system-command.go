@@ -2,7 +2,6 @@ package command
 
 import (
 	"fmt"
-	"log"
 	"os/exec"
 	"strings"
 )
@@ -22,11 +21,10 @@ func GetSystemInfo() map[string]string {
 	for key, value := range commands {
 
 		cmd := exec.Command("powershell", "-Command", value)
-		output, err := cmd.Output()
+		output, err := cmd.CombinedOutput()
 
 		if err != nil {
-			fmt.Println("Erro ao recuperar ", key)
-			log.Fatal(err)
+			fmt.Println(err)
 		}
 
 		outputList[key] = strings.TrimSpace(string(output))
