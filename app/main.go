@@ -4,7 +4,6 @@ import (
 	"SystemScanner/helper"
 	"SystemScanner/model"
 	"encoding/json"
-	"fmt"
 	"io"
 	"os"
 	"os/exec"
@@ -40,7 +39,6 @@ func main() {
 	//first use case
 	if string(computersJson) != "" {
 
-		fmt.Println("entrou")
 		json.Unmarshal(computersJson, &computers)
 
 		err = os.Truncate(JSON_PATH, 0)
